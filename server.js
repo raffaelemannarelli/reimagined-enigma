@@ -8,7 +8,8 @@ const app = express();
 
 // Define a route for the root path ('/')
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  // send index.html
+  res.sendFile(__dirname + '/index.html');
 });
 
 // Set the server to listen on port 8080
