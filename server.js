@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
-// Set the server to listen on port 3000
-const port = 3000;
+// Set the server to listen on port 8080
+const port = 8080;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
